@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="hibernate.dialect">org.hibernate.dialect.OracleDialect</property>
+    <property name="hibernate.connection.driver_class">oracle.jdbc.OracleDriver</property>
+    <property name="hibernate.connection.url">jdbc:oracle:thin:@localhost:1521:XE</property>
+    <property name="hibernate.connection.username">cdac</property>
+    <property name="hibernate.connection.password">cdac</property>
+    <mapping resource="com/myapp/struts/Feedback.hbm.xml"/>
+    <mapping resource="com/myapp/struts/Complaint.hbm.xml"/>
+    <mapping resource="com/myapp/struts/Student.hbm.xml"/>
+    <mapping resource="com/myapp/struts/Admin.hbm.xml"/>
+    <mapping resource="com/myapp/struts/Unresolved.hbm.xml"/>
+    <mapping resource="com/myapp/struts/Team.hbm.xml"/>
+    <mapping resource="com/myapp/struts/Mitigated.hbm.xml"/>
+  </session-factory>
+</hibernate-configuration>

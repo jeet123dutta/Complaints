@@ -1,0 +1,18 @@
+SMAP
+complaints_005flist_jsp.java
+JSP
+*S JSP
+*F
++ 0 complaints_list.jsp
+complaints_list.jsp
+*L
+1,10:62
+11:72,10
+12,7:82
+18:90,11
+19:101
+19,7:102
+25,2:109
+26,4:121
+29:134
+*E
